@@ -1,6 +1,0 @@
-zone "mediahostindo.web.id" { type master; file "C:/Users/nunenuh/Dropbox/skripsi/software/epanel/BINDLibrary/named/mediahostindo.web.id.db"; };
-zone "nunenuh.com" { type master; file "C:/Users/nunenuh/Dropbox/skripsi/software/epanel/BINDLibrary/named/nunenuh.com.db; };
-zone "fandi.com" { type master; file "C:/Users/nunenuh/Dropbox/skripsi/software/epanel/BINDLibrary/named/fandi.com.db; };
-zone "lima.com" { type master; file "C:/Users/nunenuh/Dropbox/skripsi/software/epanel/BINDLibrary/named/lima.com.db"; };
-zone "coba.com" { type master; file "C:/Users/nunenuh/Dropbox/skripsi/software/epanel/BINDLibrary/named/coba.com.db"; };
-zone "test.com" { type master; file "C:/Users/nunenuh/Dropbox/skripsi/software/epanel/BINDLibrary/named/test.com.db"; };
