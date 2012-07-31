@@ -1,0 +1,16 @@
+$TTL 14400
+fandi.com.    14400   IN      SOA     ns.mediahostindo.web.id. root.fandi.com. (
+                                        2       ;serial
+                                        14400   ;refresh
+                                        3600    ;retry
+                                        3600000 ;expire
+                                        86400 ) ;negative cache TTL
+;
+fandi.com.	14400	IN	A	172.30.1.111
+fandi.com.	14400	IN	A	172.30.1.110
+fandi.com.	14400	IN	NS	ns2.mediahostindo.web.id.
+fandi.com.	14400	IN	NS	ns1.mediahostindo.web.id.
+www             14400   IN      CNAME   fandi.com.
+ftp             14400   IN      CNAME   fandi.com.
+mail            14400   IN      CNAME   fandi.com.
+asd             14400   IN      CNAME   fandi.com.

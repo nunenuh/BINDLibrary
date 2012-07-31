@@ -1,0 +1,16 @@
+$TTL    14400
+@       IN      SOA     mediahostindo.web.id. root.mediahostindo.web.id. (
+                              2         ; Serial
+                          14400         ; Refresh
+                           3600         ; Retry
+                        2419200         ; Expire
+                          86400 )       ; Negative Cache TTL
+;
+mediahostindo.web.id.	14400	IN	A	172.30.1.111
+mediahostindo.web.id.	14400	IN	A	172.30.1.110
+mediahostindo.web.id.	14400	IN	NS	ns2.mediahostindo.web.id.
+mediahostindo.web.id.	14400	IN	NS	ns1.mediahostindo.web.id.
+www                                     14400   IN      CNAME   mediahostindo.web.id.
+ftp                                     14400   IN      CNAME   mediahostindo.web.id.
+mail                                    14400   IN      CNAME   mediahostindo.web.id.
+mediahostindo.web.id.                   14400   IN      MX      0 mail

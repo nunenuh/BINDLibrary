@@ -1,0 +1,15 @@
+$TTL 14400
+lima.com.	14400	IN	SOA	ns1.mediohostindo.web.id. hostmaster.lima.com. (
+					2012071647		; serial
+					3600		; refresh
+					10800		; retry
+					86400		; expire
+					259200 )		; minimumCacheTTL
+;
+lima.com.	14400	IN	A	172.30.1.111
+lima.com.	14400	IN	A	172.30.1.110
+lima.com.	14400	IN	NS	ns2.mediahostindo.web.id.
+lima.com.	14400	IN	NS	ns1.mediahostindo.web.id.
+ftp	14400	IN	CNAME	lima.com.
+mail	14400	IN	CNAME	lima.com.
+www	14400	IN	CNAME	lima.com.
